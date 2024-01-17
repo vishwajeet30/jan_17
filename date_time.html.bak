@@ -1,0 +1,39 @@
+<html>
+<head>
+	<!-- jQuery CDN -->
+	<script src="jquery.min.js">
+	</script>
+
+	<!-- CSS CDN -->
+	<link rel="stylesheet" href="jquery.datetimepicker.min.css" />
+
+	<!-- datetimepicker jQuery CDN -->
+	<script src="jquery.datetimepicker.full.min.js">
+	</script>
+
+	<!-- Basic internal styling -->
+	<style>
+		body 
+		{
+			text-align: center;
+		}
+
+		p 
+		{
+			font-size: 25px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+<br><br>
+	<input type="text" class="datetimepicker" />
+
+	<script type="text/javascript">
+		$(".datetimepicker").each(function () {
+			$(this).datetimepicker();
+		});
+	</script>
+</body>
+</html>
